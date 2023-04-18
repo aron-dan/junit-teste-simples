@@ -1,34 +1,20 @@
 
 public class Calculadora {
 	
-	public double Soma(int numeroUm, int numeroDois) {
-		return numero + numeroDois;
+	public double Soma(double a, double b) {
+		return a + b;
 	}
 	
-	public double Subtracao() {
-		double a , b;
-		double result;
-		a = 10;
-		b = 10;
-		result = a-b;
-		return result;
+	
+	public double Subtracao(double a, double b) {
+		return a - b;
 	}
 	
-	public double Divisao() {
-		double a , b;
-		double result;
-		a = 10;
-		b = 10;
-		result = a/b;
-		return result;
+	public double Divisao(double a, double b) {
+		return a/b;
 	}
-	public double Potenciacao() {
-		double a , b;
-		double result;
-		a = 10;
-		b = 3;
-		result = Math.pow(a, b);;
-		return result;
+	public double Potenciacao(double a, double b) {
+		return Math.pow(a, b);
 	}
 
 }

@@ -12,27 +12,43 @@ class CalculadoraTest {
 		Calculadora calculadora = new Calculadora();
 		
 		//Act
-		int resultado = calculadora.Soma(10, 5);
+		double resultado = calculadora.Soma(10,10);
 		
-		Assertions.assertEquals(15, resultado);
+		//Assert
+		Assertions.assertEquals(resultado, calculadora.Soma(resultado, 0));
 	}
 	
 	public void testeSubtracao() {
+		//Arrange
 		Calculadora calculadora = new Calculadora();
 		
-		Assertions.assertEquals(0, calculadora.Subtracao());
+		//ACT
+		double result = calculadora.Subtracao(20, 30);
+		
+		//Assert
+		Assertions.assertEquals(result, calculadora.Subtracao(result, result));
 	}
 	
 	public void testeDivisao() {
-		Calculadora calculadora = new Calculadora();
-		
-		Assertions.assertEquals(1, calculadora.Divisao());
+		//Arrange
+				Calculadora calculadora = new Calculadora();
+				
+				//ACT
+				double result = calculadora.Divisao(20, 30);
+				
+				//Assert
+				Assertions.assertEquals(result, calculadora.Divisao(result, result));
 	}
 	
 	public void testePotencia() {
-		Calculadora calculadora = new Calculadora();
-		
-		Assertions.assertEquals(20, calculadora.Potenciacao());
+		//Arrange
+				Calculadora calculadora = new Calculadora();
+				
+				//ACT
+				double result = calculadora.Potenciacao(20, 30);
+				
+				//Assert
+				Assertions.assertEquals(result, calculadora.Potenciacao(result, result));
 	}
 	
 
