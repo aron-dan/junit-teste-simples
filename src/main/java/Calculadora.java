@@ -1,13 +1,8 @@
 
 public class Calculadora {
 	
-	public double Soma() {
-		double a , b;
-		double result;
-		a = 10;
-		b = 10;
-		result = a+b;
-		return result;
+	public double Soma(int numeroUm, int numeroDois) {
+		return numero + numeroDois;
 	}
 	
 	public double Subtracao() {

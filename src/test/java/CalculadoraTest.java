@@ -8,9 +8,13 @@ class CalculadoraTest {
 
 	@Test
 	 public void testeSoma() {
+		//Arrange
 		Calculadora calculadora = new Calculadora();
 		
-		Assertions.assertEquals(20, calculadora.Soma());
+		//Act
+		int resultado = calculadora.Soma(10, 5);
+		
+		Assertions.assertEquals(15, resultado);
 	}
 	
 	public void testeSubtracao() {
