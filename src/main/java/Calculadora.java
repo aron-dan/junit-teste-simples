@@ -1,11 +1,10 @@
 
 public class Calculadora {
-	
+	//metdodo de somar
 	public double Soma(double a, double b) {
 		return a + b;
 	}
-	
-	
+
 	public double Subtracao(double a, double b) {
 		return a - b;
 	}
