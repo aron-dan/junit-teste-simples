@@ -21,34 +21,34 @@ class CalculadoraTest {
 	public void testeSubtracao() {
 		//Arrange
 		Calculadora calculadora = new Calculadora();
-		
+
 		//ACT
 		double result = calculadora.Subtracao(20, 30);
-		
+
 		//Assert
 		Assertions.assertEquals(result, calculadora.Subtracao(result, result));
 	}
 	
 	public void testeDivisao() {
 		//Arrange
-				Calculadora calculadora = new Calculadora();
-				
-				//ACT
-				double result = calculadora.Divisao(20, 30);
-				
-				//Assert
-				Assertions.assertEquals(result, calculadora.Divisao(result, result));
+		Calculadora calculadora = new Calculadora();
+
+		//ACT
+		double result = calculadora.Divisao(20, 30);
+
+		//Assert
+		Assertions.assertEquals(result, calculadora.Divisao(result, result));
 	}
 	
 	public void testePotencia() {
 		//Arrange
-				Calculadora calculadora = new Calculadora();
-				
-				//ACT
-				double result = calculadora.Potenciacao(20, 30);
-				
-				//Assert
-				Assertions.assertEquals(result, calculadora.Potenciacao(result, result));
+		Calculadora calculadora = new Calculadora();
+
+		//ACT
+		double result = calculadora.Potenciacao(20, 30);
+
+		//Assert
+		Assertions.assertEquals(result, calculadora.Potenciacao(result, result));
 	}
 	
 
