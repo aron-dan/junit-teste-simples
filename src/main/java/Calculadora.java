@@ -1,13 +1,9 @@
 
 public class Calculadora {
-	//metdodo de somar
+	
 	public double Soma(double a, double b) {
 		return a + b;
 	}
-<<<<<<< HEAD
-
-=======
->>>>>>> 247c4c5 (correção da variavel result)
 	public double Subtracao(double a, double b) {
 		return a - b;
 	}
